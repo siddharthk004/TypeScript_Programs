@@ -1,0 +1,17 @@
+function maximum(no1 : number,no2 : number) : void
+{
+     if(no1>no2)
+     {
+        console.log("largest number is : "+no1)
+     }
+     else
+     {
+        console.log("largest number is : "+no2)
+     }
+
+}
+
+var a : number = 21;
+var b : number = 51;
+
+maximum(a,b)
